@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/GB_Django.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/log/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/log/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/log/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2eUwbQ9xyjIxmw2pvwRgFADzZAG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django/Seminar1/HomeWork1/HW1app",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar\gameapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Lecture1" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myapp" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="" />
+      <created>1711972535673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711972535673</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

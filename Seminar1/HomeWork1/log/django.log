@@ -1,0 +1,70 @@
+INFO 2024-04-02 02:51:18,678 autoreload 15812 4212 Watching for file changes with StatReloader
+WARNING 2024-04-02 02:51:26,629 log 15812 5184 Not Found: /
+WARNING 2024-04-02 02:51:26,630 basehttp 15812 5184 "GET / HTTP/1.1" 404 2166
+WARNING 2024-04-02 02:51:33,375 log 15812 5184 Not Found: /main
+WARNING 2024-04-02 02:51:33,376 basehttp 15812 5184 "GET /main HTTP/1.1" 404 2196
+WARNING 2024-04-02 02:55:33,742 log 15812 5184 Not Found: /
+WARNING 2024-04-02 02:55:33,743 basehttp 15812 5184 "GET / HTTP/1.1" 404 2166
+WARNING 2024-04-02 02:56:11,624 log 15812 5184 Not Found: /HW1app/
+WARNING 2024-04-02 02:56:11,625 basehttp 15812 5184 "GET /HW1app/ HTTP/1.1" 404 2205
+WARNING 2024-04-02 02:56:19,066 log 15812 5184 Not Found: /HW1app/main
+WARNING 2024-04-02 02:56:19,069 basehttp 15812 5184 "GET /HW1app/main HTTP/1.1" 404 2217
+INFO 2024-04-02 02:56:50,407 basehttp 15812 5184 "GET /hw1/ HTTP/1.1" 200 637
+INFO 2024-04-02 03:02:19,945 autoreload 15812 4212 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:02:20,691 autoreload 13488 14868 Watching for file changes with StatReloader
+INFO 2024-04-02 03:02:22,418 basehttp 13488 9164 "GET /hw1/ HTTP/1.1" 200 650
+INFO 2024-04-02 03:03:35,025 autoreload 13488 14868 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:03:35,710 autoreload 15504 10360 Watching for file changes with StatReloader
+INFO 2024-04-02 03:03:37,146 basehttp 15504 14456 "GET /hw1/ HTTP/1.1" 200 662
+INFO 2024-04-02 03:04:19,743 basehttp 15504 14456 "GET /hw1/ HTTP/1.1" 200 662
+INFO 2024-04-02 03:04:20,171 autoreload 15504 10360 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:04:20,822 autoreload 17336 17308 Watching for file changes with StatReloader
+INFO 2024-04-02 03:05:40,178 autoreload 17336 17308 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:05:40,816 autoreload 16420 16416 Watching for file changes with StatReloader
+INFO 2024-04-02 03:06:43,410 autoreload 16420 16416 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:06:44,137 autoreload 17324 14432 Watching for file changes with StatReloader
+INFO 2024-04-02 03:08:52,171 autoreload 17324 14432 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:08:52,847 autoreload 16064 17064 Watching for file changes with StatReloader
+INFO 2024-04-02 03:09:07,975 basehttp 16064 14972 "GET /hw1/ HTTP/1.1" 200 664
+INFO 2024-04-02 03:10:42,294 basehttp 16064 14972 "GET /hw1/ HTTP/1.1" 200 664
+INFO 2024-04-02 03:10:42,480 autoreload 16064 17064 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:10:43,212 autoreload 16484 3312 Watching for file changes with StatReloader
+INFO 2024-04-02 03:11:56,193 autoreload 16484 3312 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:11:56,872 autoreload 17220 6468 Watching for file changes with StatReloader
+INFO 2024-04-02 03:11:57,157 basehttp 17220 11824 "GET /hw1/ HTTP/1.1" 200 660
+INFO 2024-04-02 03:12:33,095 basehttp 17220 11824 "GET /hw1/ HTTP/1.1" 200 660
+INFO 2024-04-02 03:12:33,799 autoreload 17220 6468 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:12:34,483 autoreload 16832 15692 Watching for file changes with StatReloader
+INFO 2024-04-02 03:12:41,604 basehttp 16832 3312 "GET /hw1/ HTTP/1.1" 200 662
+INFO 2024-04-02 03:13:07,664 basehttp 16832 3312 "GET /hw1/ HTTP/1.1" 200 662
+INFO 2024-04-02 03:13:08,352 autoreload 16832 15692 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:13:09,055 autoreload 14976 15944 Watching for file changes with StatReloader
+INFO 2024-04-02 03:13:18,278 basehttp 14976 844 "GET /hw1/ HTTP/1.1" 200 668
+INFO 2024-04-02 03:13:19,082 autoreload 14976 15944 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:13:19,689 autoreload 16720 3772 Watching for file changes with StatReloader
+INFO 2024-04-02 03:13:21,744 basehttp 16720 16976 "GET /hw1/ HTTP/1.1" 200 666
+WARNING 2024-04-02 03:13:31,646 log 16720 16976 Not Found: /hw1/mysite_html/
+WARNING 2024-04-02 03:13:31,647 basehttp 16720 16976 "GET /hw1/mysite_html/ HTTP/1.1" 404 2636
+INFO 2024-04-02 03:13:59,778 autoreload 16720 3772 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:14:00,402 autoreload 13760 15872 Watching for file changes with StatReloader
+WARNING 2024-04-02 03:14:04,622 log 13760 1232 Not Found: /hw1/mysite_html/
+WARNING 2024-04-02 03:14:04,623 basehttp 13760 1232 "GET /hw1/mysite_html/ HTTP/1.1" 404 2636
+INFO 2024-04-02 03:14:07,611 basehttp 13760 1232 "GET /hw1/ HTTP/1.1" 200 661
+WARNING 2024-04-02 03:14:10,287 log 13760 1232 Not Found: /hw1/mysite_html/
+WARNING 2024-04-02 03:14:10,288 basehttp 13760 1232 "GET /hw1/mysite_html/ HTTP/1.1" 404 2636
+WARNING 2024-04-02 03:14:10,706 log 13760 1232 Not Found: /hw1/mysite_html/
+WARNING 2024-04-02 03:14:10,706 basehttp 13760 1232 "GET /hw1/mysite_html/ HTTP/1.1" 404 2636
+INFO 2024-04-02 03:14:19,412 basehttp 13760 1232 "GET /hw1/mysite/ HTTP/1.1" 200 552
+INFO 2024-04-02 03:15:06,742 basehttp 13760 1232 "GET /hw1/mysite/ HTTP/1.1" 200 552
+INFO 2024-04-02 03:15:07,539 autoreload 13760 15872 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:15:08,170 autoreload 16676 6476 Watching for file changes with StatReloader
+INFO 2024-04-02 03:15:12,927 basehttp 16676 15760 "GET /hw1/mysite/ HTTP/1.1" 200 519
+INFO 2024-04-02 03:15:53,547 autoreload 16676 6476 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:15:54,194 autoreload 16880 16920 Watching for file changes with StatReloader
+INFO 2024-04-02 03:15:57,334 basehttp 16880 14644 "GET /hw1/mysite/ HTTP/1.1" 200 547
+INFO 2024-04-02 03:16:21,827 basehttp 16880 14644 "GET /hw1/about/ HTTP/1.1" 200 295
+INFO 2024-04-02 03:17:14,868 autoreload 16880 16920 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:17:15,500 autoreload 6476 16716 Watching for file changes with StatReloader
+INFO 2024-04-02 03:17:17,131 basehttp 6476 16468 "GET /hw1/about/ HTTP/1.1" 200 299
+INFO 2024-04-02 03:17:38,031 autoreload 6476 16716 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app\views.py changed, reloading.
+INFO 2024-04-02 03:17:38,808 autoreload 9496 16024 Watching for file changes with StatReloader

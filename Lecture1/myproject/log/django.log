@@ -1,0 +1,19 @@
+Watching for file changes with StatReloader
+"GET /prefix/about/ HTTP/1.1" 200 26
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/ HTTP/1.1" 200 13
+E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myapp\views.py", line 16, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 26
+E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-02 00:16:46,018 autoreload 16256 8880 Watching for file changes with StatReloader
+INFO 2024-04-02 00:17:16,429 views 16256 10532 Index page accessed
+INFO 2024-04-02 00:17:16,430 basehttp 16256 10532 "GET /prefix/ HTTP/1.1" 200 13

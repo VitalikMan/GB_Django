@@ -5,63 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/GB_Django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture1/myproject/myproject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HW1app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/HomeWork1/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/HomeWork1/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/gameapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar1/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/log/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GB_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GB_Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +50,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VitalikMan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VitalikMan/GB_Django.git&quot;,
+    &quot;accountId&quot;: &quot;93f05541-7de0-4cde-a190-9c4caaf53ec6&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eUwbQ9xyjIxmw2pvwRgFADzZAG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,16 +88,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django/Seminar1/HomeWork1/HW1app",
+    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django/Seminar2/myprojectseminar/blogapp",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2\myprojectseminar\blogapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar\gameapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Lecture1" />
@@ -116,7 +110,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>

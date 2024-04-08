@@ -1,0 +1,759 @@
+INFO 2024-04-09 00:14:55,261 autoreload 14444 14912 Watching for file changes with StatReloader
+WARNING 2024-04-09 00:15:00,065 log 14444 3412 Not Found: /
+WARNING 2024-04-09 00:15:00,068 basehttp 14444 3412 "GET / HTTP/1.1" 404 2174
+WARNING 2024-04-09 00:15:01,307 log 14444 3412 Not Found: /favicon.ico
+WARNING 2024-04-09 00:15:01,308 basehttp 14444 3412 "GET /favicon.ico HTTP/1.1" 404 2225
+WARNING 2024-04-09 00:15:11,457 log 14444 14844 Not Found: /index
+WARNING 2024-04-09 00:15:11,458 basehttp 14444 14844 "GET /index HTTP/1.1" 404 2207
+WARNING 2024-04-09 00:15:29,220 log 14444 14844 Not Found: /game/index
+WARNING 2024-04-09 00:15:29,221 basehttp 14444 14844 "GET /game/index HTTP/1.1" 404 2981
+INFO 2024-04-09 00:16:50,747 autoreload 14444 14912 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 00:16:51,437 autoreload 14384 14504 Watching for file changes with StatReloader
+WARNING 2024-04-09 00:16:53,986 log 14384 1956 Not Found: /game/index
+WARNING 2024-04-09 00:16:53,986 basehttp 14384 1956 "GET /game/index HTTP/1.1" 404 2981
+INFO 2024-04-09 00:21:03,654 autoreload 14384 14504 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 00:21:04,257 autoreload 13804 4556 Watching for file changes with StatReloader
+INFO 2024-04-09 00:21:24,444 basehttp 13804 13736 "GET /game/ HTTP/1.1" 200 718
+INFO 2024-04-09 00:21:51,560 basehttp 13804 13736 "GET /game/ HTTP/1.1" 200 720
+INFO 2024-04-09 00:25:52,454 autoreload 13804 4556 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 00:25:53,152 autoreload 13452 12640 Watching for file changes with StatReloader
+INFO 2024-04-09 00:26:35,093 autoreload 13452 12640 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 00:26:35,739 autoreload 6320 11736 Watching for file changes with StatReloader
+INFO 2024-04-09 00:26:46,549 autoreload 6320 11736 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 00:26:47,170 autoreload 14948 4996 Watching for file changes with StatReloader
+INFO 2024-04-09 00:26:50,420 basehttp 14948 9356 "GET /game/index HTTP/1.1" 200 145
+INFO 2024-04-09 00:39:39,208 autoreload 14948 4996 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 00:39:39,899 autoreload 14448 15072 Watching for file changes with StatReloader
+INFO 2024-04-09 00:42:11,351 basehttp 14448 7904 "GET /game/index HTTP/1.1" 200 145
+ERROR 2024-04-09 00:42:18,591 log 14448 7904 Internal Server Error: /game/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: gameapp/index.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 10, in index
+    return render(request, 'gameapp/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: gameapp/index.html
+ERROR 2024-04-09 00:42:18,596 basehttp 14448 7904 "GET /game/ HTTP/1.1" 500 130600
+ERROR 2024-04-09 00:50:46,603 log 14448 10084 Internal Server Error: /game/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: gameapp/index.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 10, in index
+    return render(request, 'base.html', 'gameapp/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: gameapp/index.html
+ERROR 2024-04-09 00:50:46,606 basehttp 14448 10084 "GET /game/ HTTP/1.1" 500 130783
+INFO 2024-04-09 00:50:47,467 autoreload 14448 15072 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 00:50:48,179 autoreload 8208 7164 Watching for file changes with StatReloader
+ERROR 2024-04-09 00:51:37,387 log 8208 14444 Internal Server Error: /game/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 10, in index
+    return render(request, 'gameapp/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-09 00:51:37,389 basehttp 8208 14444 "GET /game/ HTTP/1.1" 500 83517
+INFO 2024-04-09 00:51:37,797 autoreload 8208 7164 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 00:51:38,479 autoreload 11804 12144 Watching for file changes with StatReloader
+ERROR 2024-04-09 00:51:52,680 log 11804 16076 Internal Server Error: /game/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'blok'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 10, in index
+    return render(request, 'gameapp/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'blok'. Did you forget to register or load this tag?
+ERROR 2024-04-09 00:51:52,686 basehttp 11804 16076 "GET /game/ HTTP/1.1" 500 155864
+INFO 2024-04-09 00:52:23,053 basehttp 11804 16076 "GET /game/ HTTP/1.1" 200 654
+WARNING 2024-04-09 00:54:52,382 log 11804 16076 Not Found: /game/two_index
+WARNING 2024-04-09 00:54:52,382 basehttp 11804 16076 "GET /game/two_index HTTP/1.1" 404 3168
+WARNING 2024-04-09 00:55:13,377 log 11804 16076 Not Found: /game/two_index
+WARNING 2024-04-09 00:55:13,378 basehttp 11804 16076 "GET /game/two_index HTTP/1.1" 404 3168
+INFO 2024-04-09 00:55:13,419 autoreload 11804 12144 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 00:55:14,198 autoreload 15276 15916 Watching for file changes with StatReloader
+INFO 2024-04-09 00:56:07,530 basehttp 15276 12712 "GET /game/two_index HTTP/1.1" 200 124
+INFO 2024-04-09 00:56:52,956 basehttp 15276 12712 "GET /game/two_index HTTP/1.1" 200 124
+INFO 2024-04-09 00:57:46,502 basehttp 15276 12712 "GET /game/two_index HTTP/1.1" 200 124
+INFO 2024-04-09 00:59:03,590 basehttp 15276 12712 "GET /game/two_index HTTP/1.1" 200 124
+INFO 2024-04-09 00:59:21,198 basehttp 15276 12712 "GET /game/ HTTP/1.1" 200 654
+INFO 2024-04-09 01:00:20,807 basehttp 15276 12712 "GET /game/ HTTP/1.1" 200 654
+INFO 2024-04-09 01:00:33,113 basehttp 15276 12712 "GET /game/two_index HTTP/1.1" 200 162
+INFO 2024-04-09 01:06:13,321 autoreload 15276 15916 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:06:13,938 autoreload 6036 15592 Watching for file changes with StatReloader
+INFO 2024-04-09 01:16:47,299 basehttp 6036 14428 "GET /game/ HTTP/1.1" 200 660
+WARNING 2024-04-09 01:17:26,807 log 6036 14428 Not Found: /game/name
+WARNING 2024-04-09 01:17:26,807 basehttp 6036 14428 "GET /game/name HTTP/1.1" 404 3157
+INFO 2024-04-09 01:17:32,428 basehttp 6036 14428 "GET /game/ HTTP/1.1" 200 660
+INFO 2024-04-09 01:20:05,528 autoreload 6036 15592 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:20:06,240 autoreload 16080 11812 Watching for file changes with StatReloader
+INFO 2024-04-09 01:20:32,563 basehttp 16080 14940 "GET /game/ HTTP/1.1" 200 666
+INFO 2024-04-09 01:22:46,756 basehttp 16080 14940 "GET /game/ HTTP/1.1" 200 683
+INFO 2024-04-09 01:24:20,581 basehttp 16080 14940 "GET /game/ HTTP/1.1" 200 681
+INFO 2024-04-09 01:37:25,025 autoreload 16080 11812 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:37:25,656 autoreload 14992 4488 Watching for file changes with StatReloader
+ERROR 2024-04-09 01:37:28,423 log 14992 9960 Internal Server Error: /game/coin/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 25, in coin
+    arg_.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 01:37:28,430 basehttp 14992 9960 "GET /game/coin/ HTTP/1.1" 500 149796
+INFO 2024-04-09 01:42:41,159 autoreload 14992 4488 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:42:41,859 autoreload 14680 3108 Watching for file changes with StatReloader
+INFO 2024-04-09 01:55:24,741 autoreload 14680 3108 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:55:25,406 autoreload 11808 3428 Watching for file changes with StatReloader
+ERROR 2024-04-09 01:56:39,706 log 11808 15616 Internal Server Error: /game/coin/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 26, in coin
+    value.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 01:56:39,714 basehttp 11808 15616 "GET /game/coin/ HTTP/1.1" 500 150215
+INFO 2024-04-09 01:56:40,048 autoreload 11808 3428 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:56:40,784 autoreload 1288 9576 Watching for file changes with StatReloader
+INFO 2024-04-09 01:56:49,653 autoreload 1288 9576 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:56:50,390 autoreload 9820 15788 Watching for file changes with StatReloader
+ERROR 2024-04-09 01:56:50,580 log 9820 12264 Internal Server Error: /game/coin/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 26, in coin
+    value.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 01:56:50,587 basehttp 9820 12264 "GET /game/coin/ HTTP/1.1" 500 150261
+ERROR 2024-04-09 01:58:38,805 log 9820 12264 Internal Server Error: /game/coin/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 26, in coin
+    # value.save()
+    ^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 01:58:38,808 basehttp 9820 12264 "GET /game/coin/ HTTP/1.1" 500 150300
+INFO 2024-04-09 01:58:39,185 autoreload 9820 15788 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:58:39,830 autoreload 14532 4008 Watching for file changes with StatReloader
+INFO 2024-04-09 01:59:08,000 basehttp 14532 11964 "GET /game/coin/ HTTP/1.1" 200 222
+INFO 2024-04-09 01:59:08,682 autoreload 14532 4008 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:59:09,340 autoreload 15644 15024 Watching for file changes with StatReloader
+INFO 2024-04-09 01:59:15,919 basehttp 15644 14508 "GET /game/coin/ HTTP/1.1" 200 222
+INFO 2024-04-09 01:59:16,294 autoreload 15644 15024 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 01:59:16,995 autoreload 15424 15100 Watching for file changes with StatReloader
+INFO 2024-04-09 01:59:17,628 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 219
+INFO 2024-04-09 01:59:19,183 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 219
+INFO 2024-04-09 01:59:19,602 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 219
+INFO 2024-04-09 01:59:19,995 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 221
+INFO 2024-04-09 01:59:20,463 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 219
+INFO 2024-04-09 01:59:20,943 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 219
+INFO 2024-04-09 01:59:21,365 basehttp 15424 15176 "GET /game/coin/ HTTP/1.1" 200 221
+INFO 2024-04-09 02:01:18,924 autoreload 15424 15100 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 02:01:19,633 autoreload 15792 15668 Watching for file changes with StatReloader
+INFO 2024-04-09 02:01:53,303 autoreload 15792 15668 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:01:54,021 autoreload 4104 15920 Watching for file changes with StatReloader
+INFO 2024-04-09 02:08:12,528 autoreload 4104 15920 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:08:13,254 autoreload 14736 7788 Watching for file changes with StatReloader
+WARNING 2024-04-09 02:11:53,759 log 14736 4692 Not Found: /game/coin/
+WARNING 2024-04-09 02:11:53,760 basehttp 14736 4692 "GET /game/coin/ HTTP/1.1" 404 3173
+INFO 2024-04-09 02:11:54,271 autoreload 14736 7788 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:11:54,871 autoreload 1844 15484 Watching for file changes with StatReloader
+WARNING 2024-04-09 02:11:57,579 log 1844 14348 Not Found: /game/coin/
+WARNING 2024-04-09 02:11:57,580 basehttp 1844 14348 "GET /game/coin/ HTTP/1.1" 404 3173
+WARNING 2024-04-09 02:12:02,214 log 1844 14348 Not Found: /game/coin/
+WARNING 2024-04-09 02:12:02,215 basehttp 1844 14348 "GET /game/coin/ HTTP/1.1" 404 3173
+WARNING 2024-04-09 02:12:05,859 log 1844 14348 Not Found: /game/coin/5
+WARNING 2024-04-09 02:12:05,860 basehttp 1844 14348 "GET /game/coin/5 HTTP/1.1" 404 3176
+INFO 2024-04-09 02:15:38,713 autoreload 1844 15484 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:15:39,365 autoreload 6988 13804 Watching for file changes with StatReloader
+INFO 2024-04-09 02:17:40,253 autoreload 6988 13804 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:17:40,898 autoreload 15820 14444 Watching for file changes with StatReloader
+WARNING 2024-04-09 02:17:41,211 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:41,211 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:17:42,089 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:42,089 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:17:42,900 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:42,901 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:17:43,287 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:43,288 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:17:43,696 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:43,697 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:17:44,207 log 15820 3912 Not Found: /game/coin/5
+WARNING 2024-04-09 02:17:44,208 basehttp 15820 3912 "GET /game/coin/5 HTTP/1.1" 404 3176
+INFO 2024-04-09 02:18:43,719 autoreload 15820 14444 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:18:44,381 autoreload 7984 15512 Watching for file changes with StatReloader
+WARNING 2024-04-09 02:18:44,757 log 7984 15804 Not Found: /game/coin/5
+WARNING 2024-04-09 02:18:44,758 basehttp 7984 15804 "GET /game/coin/5 HTTP/1.1" 404 3176
+WARNING 2024-04-09 02:21:03,502 log 7984 15804 Not Found: /game/coin/5
+WARNING 2024-04-09 02:21:03,503 basehttp 7984 15804 "GET /game/coin/5 HTTP/1.1" 404 3176
+INFO 2024-04-09 02:21:04,239 autoreload 7984 15512 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:21:04,931 autoreload 15388 10872 Watching for file changes with StatReloader
+WARNING 2024-04-09 02:21:07,672 log 15388 7716 Not Found: /game/coin/5
+WARNING 2024-04-09 02:21:07,673 basehttp 15388 7716 "GET /game/coin/5 HTTP/1.1" 404 3176
+INFO 2024-04-09 02:22:47,309 autoreload 15388 10872 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 02:22:48,035 autoreload 14860 14592 Watching for file changes with StatReloader
+INFO 2024-04-09 02:22:48,510 basehttp 14860 15712 "GET /game/coin/5 HTTP/1.1" 200 323
+INFO 2024-04-09 02:25:00,548 autoreload 14860 14592 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:25:01,362 autoreload 14520 8476 Watching for file changes with StatReloader
+INFO 2024-04-09 02:25:01,456 basehttp 14520 16276 "GET /game/coin/5 HTTP/1.1" 200 219
+INFO 2024-04-09 02:25:55,553 basehttp 14520 16276 "GET /game/coin/5 HTTP/1.1" 200 221
+INFO 2024-04-09 02:25:55,930 autoreload 14520 8476 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:25:56,604 autoreload 13440 4048 Watching for file changes with StatReloader
+INFO 2024-04-09 02:27:24,339 basehttp 13440 2332 "GET /game/coin/5 HTTP/1.1" 200 253
+INFO 2024-04-09 02:33:33,840 basehttp 13440 12068 "GET /game/coin/5 HTTP/1.1" 200 259
+INFO 2024-04-09 02:33:34,065 autoreload 13440 4048 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:33:34,756 autoreload 15956 3964 Watching for file changes with StatReloader
+INFO 2024-04-09 02:33:39,474 basehttp 15956 14008 "GET /game/coin/5 HTTP/1.1" 200 265
+INFO 2024-04-09 02:35:27,558 basehttp 15956 14008 "GET /game/coin/5 HTTP/1.1" 200 263
+INFO 2024-04-09 02:35:27,709 autoreload 15956 3964 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:35:28,354 autoreload 15888 16160 Watching for file changes with StatReloader
+INFO 2024-04-09 02:35:28,541 basehttp 15888 15608 "GET /game/coin/5 HTTP/1.1" 200 263
+INFO 2024-04-09 02:35:30,199 basehttp 15888 15608 "GET /game/coin/5 HTTP/1.1" 200 265
+INFO 2024-04-09 02:35:31,911 basehttp 15888 15608 "GET /game/coin/5 HTTP/1.1" 200 267
+INFO 2024-04-09 02:35:32,630 basehttp 15888 15608 "GET /game/coin/5 HTTP/1.1" 200 267
+INFO 2024-04-09 02:35:33,351 basehttp 15888 15608 "GET /game/coin/5 HTTP/1.1" 200 265
+INFO 2024-04-09 02:35:59,993 autoreload 15888 16160 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:36:00,667 autoreload 9968 7840 Watching for file changes with StatReloader
+INFO 2024-04-09 02:36:00,964 basehttp 9968 15468 "GET /game/coin/5 HTTP/1.1" 200 265
+INFO 2024-04-09 02:36:06,599 basehttp 9968 15468 "GET /game/coin/5 HTTP/1.1" 200 267
+INFO 2024-04-09 02:36:07,423 autoreload 9968 7840 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:36:08,088 autoreload 5440 13736 Watching for file changes with StatReloader
+INFO 2024-04-09 02:36:13,750 autoreload 5440 13736 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:36:14,390 autoreload 7068 8892 Watching for file changes with StatReloader
+INFO 2024-04-09 02:36:14,627 basehttp 7068 15760 "GET /game/coin/5 HTTP/1.1" 200 251
+INFO 2024-04-09 02:36:17,353 basehttp 7068 15760 "GET /game/coin/5 HTTP/1.1" 200 257
+INFO 2024-04-09 02:38:24,322 basehttp 7068 15760 "GET /game/coin/5 HTTP/1.1" 200 255
+INFO 2024-04-09 02:38:24,834 autoreload 7068 8892 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:38:25,449 autoreload 3672 8688 Watching for file changes with StatReloader
+INFO 2024-04-09 02:38:26,959 basehttp 3672 1652 "GET /game/coin/5 HTTP/1.1" 200 267
+INFO 2024-04-09 02:38:42,030 basehttp 3672 1652 "GET /game/coin/10 HTTP/1.1" 200 317
+INFO 2024-04-09 02:39:53,493 autoreload 3672 8688 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 02:39:54,191 autoreload 4016 14820 Watching for file changes with StatReloader
+INFO 2024-04-09 02:40:05,008 autoreload 4016 14820 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\urls.py changed, reloading.
+INFO 2024-04-09 02:40:05,646 autoreload 16164 15384 Watching for file changes with StatReloader
+INFO 2024-04-09 02:41:19,696 autoreload 16164 15384 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:41:20,413 autoreload 436 16256 Watching for file changes with StatReloader
+INFO 2024-04-09 02:42:06,536 autoreload 436 16256 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:42:07,334 autoreload 7860 6496 Watching for file changes with StatReloader
+INFO 2024-04-09 02:44:40,569 autoreload 7860 6496 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:44:41,212 autoreload 16012 8928 Watching for file changes with StatReloader
+INFO 2024-04-09 02:45:48,258 autoreload 16012 8928 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:45:48,855 autoreload 6040 14656 Watching for file changes with StatReloader
+ERROR 2024-04-09 02:45:52,592 log 6040 11060 Internal Server Error: /game/kub/10
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 49, in kub
+    value += randint(1, 7)
+TypeError: can only concatenate str (not "int") to str
+ERROR 2024-04-09 02:45:52,593 basehttp 6040 11060 "GET /game/kub/10 HTTP/1.1" 500 68570
+ERROR 2024-04-09 02:46:16,927 log 6040 11060 Internal Server Error: /game/kub/10
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 49, in kub
+    value += str(randint(1, 7))
+    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: can only concatenate str (not "int") to str
+ERROR 2024-04-09 02:46:16,929 basehttp 6040 11060 "GET /game/kub/10 HTTP/1.1" 500 68717
+INFO 2024-04-09 02:46:17,612 autoreload 6040 14656 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:46:18,307 autoreload 15444 2520 Watching for file changes with StatReloader
+INFO 2024-04-09 02:46:21,323 basehttp 15444 3068 "GET /game/kub/10 HTTP/1.1" 200 199
+INFO 2024-04-09 02:49:26,029 autoreload 15444 2520 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-09 02:49:26,739 autoreload 10168 15036 Watching for file changes with StatReloader
+INFO 2024-04-09 02:49:26,874 basehttp 10168 12720 "GET /game/kub/10 HTTP/1.1" 200 207
+INFO 2024-04-09 02:49:42,662 basehttp 10168 12720 "GET /game/numbers/10 HTTP/1.1" 200 207
+INFO 2024-04-09 02:50:56,075 basehttp 10168 12720 "GET /game/coin_values HTTP/1.1" 301 0
+ERROR 2024-04-09 02:50:56,158 log 10168 14372 Internal Server Error: /game/coin_values/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 71, in coin_values
+    print(value)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 376, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 02:50:56,163 basehttp 10168 14372 "GET /game/coin_values/ HTTP/1.1" 500 134303
+ERROR 2024-04-09 02:51:17,935 log 10168 14372 Internal Server Error: /game/coin_values/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: gameapp_coin
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar\gameapp\views.py", line 71, in coin_values
+    print(value)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 376, in __repr__
+    data = list(self[: REPR_OUTPUT_SIZE + 1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: gameapp_coin
+ERROR 2024-04-09 02:51:17,939 basehttp 10168 14372 "GET /game/coin_values/ HTTP/1.1" 500 134303

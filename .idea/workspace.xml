@@ -4,35 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/blogapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/gameapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar2/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GB_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GB_Django.iml" afterDir="false" />
+    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Added Seminar 3">
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/log/django.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/templates/shopapp/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/templates/shopapp/ordered_items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,28 +76,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django/Seminar2/myprojectseminar/blogapp",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django/Seminar3/HomeWork/shopapp/templates/shopapp",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2\myprojectseminar\blogapp" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\HomeWork1\HW1app" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar\gameapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\templates\shopapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\myprojectseminar" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2\HomeWork2\shopapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\migrations\templates\shopapp" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3" />
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork3" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar2" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1\myprojectseminar" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar1" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Lecture1" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\myproject\myapp" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -123,9 +118,40 @@
       <option name="presentableId" value="Default" />
       <updated>1711972535673</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Seminar 2 and HomeWork2">
+      <option name="closed" value="true" />
+      <created>1712346692021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712346692021</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Seminar 3">
+      <option name="closed" value="true" />
+      <created>1712595400922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712595400922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Seminar 2 and HomeWork2" />
+    <MESSAGE value="Added Seminar 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 3" />
   </component>
 </project>

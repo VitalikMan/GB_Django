@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ordered Items</title>
+</head>
+<body>
+    <h1>Заказанные товары клиентов:</h1>
+    <ul>
+        {% for customer in customers %}
+        <li>
+            <h2>{{ customer.name }}</h2>
+            <p>Заказанные товары за последние {{ period }} дней:</p>
+            <ul>
+                {% for item in customer.ordered_items %}
+                <li>{{ item.name }} - {{ item.price }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

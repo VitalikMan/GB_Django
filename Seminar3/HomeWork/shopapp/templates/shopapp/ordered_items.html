@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ordered Items</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список заказов за последние {{ period }} дней</title>
 </head>
 <body>
-    <h1>Заказанные товары клиентов:</h1>
-    <ul>
-        {% for customer in customers %}
-        <li>
-            <h2>{{ customer.name }}</h2>
-            <p>Заказанные товары за последние {{ period }} дней:</p>
-            <ul>
+    <h1>Список заказов за последние {{ period }} дней</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Клиент</th>
+                <th>Товар</th>
+                <th>Цена</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for customer in customers %}
                 {% for item in customer.ordered_items %}
-                <li>{{ item.name }} - {{ item.price }}</li>
+                    <tr>
+                        <td>{{ customer.name }}</td>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.price }}</td>
+                    </tr>
                 {% endfor %}
-            </ul>
-        </li>
-        {% endfor %}
-    </ul>
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>

@@ -1,40 +1,10 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.utils import timezone
+
 from .models import Customer, Product, Order
 from random import choice, randint
 from datetime import datetime, timedelta
-
-
-def main(request):
-    main_html = ("<h1>Страница описания моего второго домашнего задания по Django</h1>"
-                 "<h2>Создайте три модели Django: клиент, товар и заказ.</h2>"
-                 "<p>Клиент может иметь несколько заказов.</p>"
-                 "<p>Заказ может содержать несколько товаров.</p>"
-                 "<p>Товар может входить в несколько заказов.</p>"
-                 "<h4> Модель 'Клиенты':</h4>"
-                 "<p> Поля модели 'Клиент':</p>"
-                 "<p>— имя клиента</p>"
-                 "<p>— электронная почта клиента</p>"
-                 "<p>— номер телефона клиента</p>"
-                 "<p>— адрес клиента</p>"
-                 "<p>— дата регистрации клиента</p>"
-                 "<h4> Модель 'Товары':</h4>"
-                 "<p> Поля модели 'Товар':</p>"
-                 "<p>— название товара</p>"
-                 "<p>— описание товара</p>"
-                 "<p>— цена товара</p>"
-                 "<p>— количество товара</p>"
-                 "<p>— дата добавления товара</p>"
-                 "<h4> Модель 'Заказы':</h4>"
-                 "<p> Поля модели 'Заказ':</p>"
-                 "<p>— связь с моделью 'Клиент', указывает на клиента, сделавшего заказ</p>"
-                 "<p>— связь с моделью 'Товар', указывает на товары, входящие в заказ</p>"
-                 "<p>— общая сумма заказа</p>"
-                 "<p>— дата оформления заказа</p>"
-
-                 "<p>— Главная -> http://127.0.0.1:8000/shop/mysite/</p>"
-                 "<p>— Фейковая база данных -> http://127.0.0.1:8000/shop/fake_db/</p>")
-    return HttpResponse(main_html)
 
 
 def mysite(request):
@@ -51,7 +21,7 @@ def fake_db(request):
     streets = ['Гоголя', 'Советская', 'Пушкина', 'Лермонтова', 'Шелеста', 'Ленина']
     for i in range(10):
         street = choice(streets)
-        random_date = datetime.now() - timedelta(days=randint(1, 365))
+        random_date = timezone.now() - timedelta(days=randint(1, 365))
         formatted_date = random_date.strftime('%Y-%m-%d')
         customer = Customer.objects.create(
             name=f'Петя_{i}',
@@ -75,6 +45,14 @@ def fake_db(request):
                 order_date=product.date_added
             )
             order.products.add(product)  # Добавление продукта к заказу
+
+            # Добавление продукта в связанные поля модели Customer
+            if (timezone.now() - product.date_added).days <= 7:
+                customer.ordered_items_last_week.add(product)
+            if (timezone.now() - product.date_added).days <= 30:
+                customer.ordered_items_last_month.add(product)
+            if (timezone.now() - product.date_added).days <= 365:
+                customer.ordered_items_last_year.add(product)
 
     return HttpResponse("Добавлено 10 клиентов с их заказами")
 

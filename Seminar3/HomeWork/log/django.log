@@ -263,3 +263,18 @@ INFO 2024-04-10 01:58:54,227 basehttp 8952 11840 "GET /shop/ordered_items/30 HTT
 INFO 2024-04-10 02:03:50,554 basehttp 8952 11840 "GET /shop/ordered_items/30 HTTP/1.1" 200 2048
 INFO 2024-04-10 02:04:01,224 basehttp 8952 11840 "GET /shop/ordered_items/7 HTTP/1.1" 200 1968
 INFO 2024-04-10 02:05:43,175 basehttp 8952 11840 "GET /shop/ordered_items/7 HTTP/1.1" 200 2342
+WARNING 2024-04-10 02:11:03,890 log 8952 17832 Not Found: /
+WARNING 2024-04-10 02:11:03,890 basehttp 8952 17832 "GET / HTTP/1.1" 404 2166
+WARNING 2024-04-10 02:11:04,429 log 8952 17832 Not Found: /favicon.ico
+WARNING 2024-04-10 02:11:04,430 basehttp 8952 17832 "GET /favicon.ico HTTP/1.1" 404 2217
+INFO 2024-04-10 02:11:24,895 basehttp 8952 17832 "GET /shop/ordered_items/7 HTTP/1.1" 200 2314
+INFO 2024-04-10 02:15:22,174 autoreload 8952 4804 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\views.py changed, reloading.
+INFO 2024-04-10 02:15:22,828 autoreload 4536 17972 Watching for file changes with StatReloader
+INFO 2024-04-10 02:23:03,143 autoreload 4536 17972 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\views.py changed, reloading.
+INFO 2024-04-10 02:23:03,794 autoreload 18420 3044 Watching for file changes with StatReloader
+INFO 2024-04-10 02:23:20,445 basehttp 18420 5552 "GET /shop/fake_db/ HTTP/1.1" 200 63
+INFO 2024-04-10 02:23:39,405 basehttp 18420 5552 "GET /shop/ordered_items/7 HTTP/1.1" 200 4404
+INFO 2024-04-10 02:24:08,282 autoreload 9640 4876 Watching for file changes with StatReloader
+INFO 2024-04-10 02:24:10,292 basehttp 9640 8900 "GET /shop/ordered_items/7 HTTP/1.1" 200 4404
+INFO 2024-04-10 02:31:10,205 autoreload 9640 4876 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\views.py changed, reloading.
+INFO 2024-04-10 02:31:10,856 autoreload 15388 17248 Watching for file changes with StatReloader

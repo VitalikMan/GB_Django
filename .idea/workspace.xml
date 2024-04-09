@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Added Seminar 3">
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/HomeWork/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/templates/shopapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/templates/shopapp/ordered_items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Added HomeWork 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/HomeWork/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/HomeWork/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/HomeWork/log/django.log" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/HomeWork/log/django.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar3/HomeWork/shopapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712595400922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added HomeWork 3">
+      <option name="closed" value="true" />
+      <created>1712678969894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712678969894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +144,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Seminar 2 and HomeWork2" />
     <MESSAGE value="Added Seminar 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 3" />
+    <MESSAGE value="Added HomeWork 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HomeWork 3" />
   </component>
 </project>

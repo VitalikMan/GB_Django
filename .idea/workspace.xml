@@ -4,83 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Editing code in Seminar 4 and adding homework 4">
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/django-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/Рис.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/масло.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_5I4oZz3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_5KzJ0Qb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_7j6s0kt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_Ay1gTNG.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_LQGOCjp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_OomIOLj.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_ZWXGW0h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_dX5qI2B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_hOrpTs8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/помидор_vpGF7KX.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/media/хлеб.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/all_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/ordered_items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/templates/shopapp/product_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/templates/blogapp/post_author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/templates/gameapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/templates/gameapp/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/templates/gameapp/game_two.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/templates/gameapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/templates/gameapp/two_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Added Seminar 5 and adding HomeWork 5">
       <change beforePath="$PROJECT_DIR$/Seminar4/HomeWork/shopapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar4/HomeWork/shopapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5/HomeWork/HomeWork/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5/HomeWork/shopapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seminar5/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713088851139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Seminar 5 and adding HomeWork 5">
+      <option name="closed" value="true" />
+      <created>1713113717240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713113717240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +183,7 @@
     <MESSAGE value="Added HomeWork 3" />
     <MESSAGE value="Сorrected the code" />
     <MESSAGE value="Editing code in Seminar 4 and adding homework 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing code in Seminar 4 and adding homework 4" />
+    <MESSAGE value="Added Seminar 5 and adding HomeWork 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 5 and adding HomeWork 5" />
   </component>
 </project>

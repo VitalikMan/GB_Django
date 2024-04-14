@@ -1,0 +1,390 @@
+INFO 2024-04-13 20:42:59,460 autoreload 11152 13884 Watching for file changes with StatReloader
+INFO 2024-04-13 20:46:27,231 autoreload 9756 1992 Watching for file changes with StatReloader
+INFO 2024-04-13 20:55:34,819 autoreload 15248 15308 Watching for file changes with StatReloader
+INFO 2024-04-13 20:56:06,237 autoreload 15248 15308 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\forms.py changed, reloading.
+INFO 2024-04-13 20:56:06,894 autoreload 6388 13624 Watching for file changes with StatReloader
+INFO 2024-04-13 20:56:14,422 autoreload 6388 13624 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\forms.py changed, reloading.
+INFO 2024-04-13 20:56:14,994 autoreload 8948 9560 Watching for file changes with StatReloader
+INFO 2024-04-13 20:56:36,021 basehttp 8948 6048 "GET /game/ HTTP/1.1" 200 716
+INFO 2024-04-13 20:56:37,608 basehttp 8948 6048 "GET /game/game_choice HTTP/1.1" 301 0
+INFO 2024-04-13 20:56:37,629 basehttp 8948 10976 "GET /game/game_choice/ HTTP/1.1" 200 758
+WARNING 2024-04-13 20:56:38,090 log 8948 10976 Not Found: /favicon.ico
+WARNING 2024-04-13 20:56:38,091 basehttp 8948 10976 "GET /favicon.ico HTTP/1.1" 404 2225
+ERROR 2024-04-13 20:56:45,002 log 8948 10976 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view gameapp.views.game_choice didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-13 20:56:45,003 basehttp 8948 10976 "POST /game/game_choice/ HTTP/1.1" 500 70622
+INFO 2024-04-13 20:59:45,863 autoreload 8948 9560 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 20:59:46,561 autoreload 14924 8136 Watching for file changes with StatReloader
+ERROR 2024-04-13 20:59:46,873 log 14924 14772 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py", line 85, in game_choice
+    return coin(request)
+           ^^^^^^^^^^^^^
+TypeError: coin() missing 1 required positional argument: 'count'
+ERROR 2024-04-13 20:59:46,876 basehttp 14924 14772 "POST /game/game_choice/ HTTP/1.1" 500 69862
+INFO 2024-04-13 21:03:02,503 autoreload 14924 8136 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:03:03,210 autoreload 12488 9220 Watching for file changes with StatReloader
+ERROR 2024-04-13 21:03:04,307 log 12488 2624 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py", line 85, in game_choice
+    return coin(request, game_choice(request))
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py", line 85, in game_choice
+    return coin(request, game_choice(request))
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py", line 85, in game_choice
+    return coin(request, game_choice(request))
+                         ^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 957 more times]
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py", line 80, in game_choice
+    form = GameCoin(request.POST)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\forms\forms.py", line 103, in __init__
+    self.fields = copy.deepcopy(self.base_fields)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\copy.py", line 136, in deepcopy
+    y = copier(x, memo)
+        ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\copy.py", line 221, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\copy.py", line 143, in deepcopy
+    y = copier(memo)
+        ^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\forms\fields.py", line 883, in __deepcopy__
+    result = super().__deepcopy__(memo)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\forms\fields.py", line 259, in __deepcopy__
+    result.widget = copy.deepcopy(self.widget, memo)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1008.0_x64__qbz5n2kfra8p0\Lib\copy.py", line 143, in deepcopy
+    y = copier(memo)
+        ^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\forms\widgets.py", line 633, in __deepcopy__
+    obj.choices = copy.copy(self.choices)
+    ^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\forms\widgets.py", line 752, in choices
+    self._choices = normalize_choices(value)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\utils\choices.py", line 109, in normalize_choices
+    return [(k, normalize_choices(v, depth=depth + 1)) for k, v in value]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\utils\choices.py", line 74, in normalize_choices
+    from django.db.models.enums import ChoicesType
+RecursionError: maximum recursion depth exceeded
+ERROR 2024-04-13 21:03:04,343 basehttp 12488 2624 "POST /game/game_choice/ HTTP/1.1" 500 3941988
+INFO 2024-04-13 21:03:43,397 autoreload 12488 9220 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:03:44,180 autoreload 14472 88 Watching for file changes with StatReloader
+INFO 2024-04-13 21:03:44,487 basehttp 14472 13388 "POST /game/game_choice/ HTTP/1.1" 200 265
+INFO 2024-04-13 21:04:43,002 autoreload 14472 88 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:04:43,744 autoreload 7964 14204 Watching for file changes with StatReloader
+INFO 2024-04-13 21:04:45,447 basehttp 7964 14852 "POST /game/game_choice/ HTTP/1.1" 200 269
+INFO 2024-04-13 21:04:47,601 basehttp 7964 14852 "GET /game/game_choice/ HTTP/1.1" 200 758
+INFO 2024-04-13 21:05:01,730 basehttp 7964 14852 "POST /game/game_choice/ HTTP/1.1" 200 192
+INFO 2024-04-13 21:05:04,836 basehttp 7964 14852 "GET /game/game_choice/ HTTP/1.1" 200 758
+ERROR 2024-04-13 21:05:07,896 log 7964 14852 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view gameapp.views.game_choice didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-13 21:05:07,897 basehttp 7964 14852 "POST /game/game_choice/ HTTP/1.1" 500 70624
+ERROR 2024-04-13 21:06:51,735 log 7964 14852 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view gameapp.views.game_choice didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-13 21:06:51,736 basehttp 7964 14852 "POST /game/game_choice/ HTTP/1.1" 500 70624
+INFO 2024-04-13 21:10:26,492 autoreload 7964 14204 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\forms.py changed, reloading.
+INFO 2024-04-13 21:10:27,214 autoreload 14828 12012 Watching for file changes with StatReloader
+ERROR 2024-04-13 21:10:27,601 log 14828 4172 Internal Server Error: /game/game_choice/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view gameapp.views.game_choice didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-13 21:10:27,603 basehttp 14828 4172 "POST /game/game_choice/ HTTP/1.1" 500 70624
+INFO 2024-04-13 21:13:42,639 autoreload 14828 12012 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:13:43,287 autoreload 13876 8848 Watching for file changes with StatReloader
+INFO 2024-04-13 21:13:44,374 basehttp 13876 12188 "GET /game/game_choice/ HTTP/1.1" 200 759
+INFO 2024-04-13 21:13:48,377 basehttp 13876 12188 "POST /game/game_choice/ HTTP/1.1" 200 189
+INFO 2024-04-13 21:13:55,369 basehttp 13876 12188 "GET /game/game_choice/ HTTP/1.1" 200 759
+INFO 2024-04-13 21:13:58,125 basehttp 13876 12188 "POST /game/game_choice/ HTTP/1.1" 200 189
+INFO 2024-04-13 21:13:59,514 basehttp 13876 12188 "GET /game/game_choice/ HTTP/1.1" 200 759
+INFO 2024-04-13 21:14:01,319 basehttp 13876 12188 "POST /game/game_choice/ HTTP/1.1" 200 253
+INFO 2024-04-13 21:34:43,499 autoreload 13876 8848 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\myprojectseminar\settings.py changed, reloading.
+INFO 2024-04-13 21:34:44,312 autoreload 3132 14596 Watching for file changes with StatReloader
+INFO 2024-04-13 21:36:18,712 autoreload 3132 14596 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:36:19,359 autoreload 11416 12240 Watching for file changes with StatReloader
+INFO 2024-04-13 21:39:12,819 autoreload 11416 12240 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\gameapp\views.py changed, reloading.
+INFO 2024-04-13 21:39:13,506 autoreload 10160 14700 Watching for file changes with StatReloader
+INFO 2024-04-13 21:40:38,758 autoreload 10160 14700 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:40:39,459 autoreload 14596 14748 Watching for file changes with StatReloader
+INFO 2024-04-13 21:43:08,337 autoreload 14596 14748 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:43:09,004 autoreload 7584 6964 Watching for file changes with StatReloader
+INFO 2024-04-13 21:46:04,501 autoreload 7584 6964 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:46:05,287 autoreload 10364 13364 Watching for file changes with StatReloader
+INFO 2024-04-13 21:51:42,399 autoreload 10364 13364 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:51:43,089 autoreload 8136 14392 Watching for file changes with StatReloader
+INFO 2024-04-13 21:51:52,062 autoreload 8136 14392 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:51:52,694 autoreload 15092 12776 Watching for file changes with StatReloader
+INFO 2024-04-13 21:54:04,821 autoreload 15092 12776 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:54:05,429 autoreload 1556 15088 Watching for file changes with StatReloader
+INFO 2024-04-13 21:54:51,337 autoreload 1556 15088 E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py changed, reloading.
+INFO 2024-04-13 21:54:52,343 autoreload 3948 13784 Watching for file changes with StatReloader
+INFO 2024-04-13 21:55:17,157 basehttp 3948 8936 "GET /blog/post_author/ HTTP/1.1" 200 1096
+ERROR 2024-04-13 21:57:03,274 log 3948 8936 Internal Server Error: /blog/post_author/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: blogapp_author
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py", line 36, in post_author
+    author.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: blogapp_author
+ERROR 2024-04-13 21:57:03,281 basehttp 3948 8936 "POST /blog/post_author/ HTTP/1.1" 500 154983
+INFO 2024-04-13 21:58:22,901 autoreload 4032 14192 Watching for file changes with StatReloader
+INFO 2024-04-13 21:58:27,380 basehttp 4032 7140 "POST /blog/post_author/ HTTP/1.1" 200 377
+INFO 2024-04-13 21:58:31,335 basehttp 4032 7140 "GET /blog/post_author/ HTTP/1.1" 200 1096
+INFO 2024-04-13 21:58:34,095 basehttp 4032 7140 "POST /blog/post_author/ HTTP/1.1" 200 377
+INFO 2024-04-13 21:58:35,227 basehttp 4032 7140 "POST /blog/post_author/ HTTP/1.1" 200 1494
+INFO 2024-04-13 22:17:02,318 autoreload 10752 11464 Watching for file changes with StatReloader
+INFO 2024-04-13 22:17:09,910 basehttp 10752 11104 "GET /blog/ HTTP/1.1" 200 13
+INFO 2024-04-13 22:17:13,903 basehttp 10752 11104 "GET /blog/post_author/ HTTP/1.1" 200 1096
+ERROR 2024-04-13 22:17:43,210 log 10752 11104 Internal Server Error: /blog/post_author/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py", line 36, in post_author
+    author.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-13 22:17:43,215 basehttp 10752 11104 "POST /blog/post_author/ HTTP/1.1" 500 131761
+ERROR 2024-04-13 22:18:56,162 log 10752 11104 Internal Server Error: /blog/post_author/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py", line 36, in post_author
+    author.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-13 22:18:56,165 basehttp 10752 11104 "POST /blog/post_author/ HTTP/1.1" 500 131761
+INFO 2024-04-13 22:19:07,417 basehttp 10752 11104 "POST /blog/post_author/ HTTP/1.1" 200 377
+INFO 2024-04-13 22:21:39,670 basehttp 10752 11104 "GET /blog/post_author/ HTTP/1.1" 200 2073
+INFO 2024-04-13 22:21:43,971 basehttp 10752 11104 "GET /blog/post_author/ HTTP/1.1" 200 2073
+INFO 2024-04-13 22:22:14,212 basehttp 10752 11104 "GET /blog/post_author/ HTTP/1.1" 200 2073
+INFO 2024-04-13 22:22:17,783 basehttp 10752 11104 "GET /blog/post_author/ HTTP/1.1" 200 1101
+ERROR 2024-04-13 22:22:53,379 log 10752 11104 Internal Server Error: /blog/post_author/
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\myprojectseminar\blogapp\views.py", line 36, in post_author
+    author.save()
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1067, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\base.py", line 1108, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1835, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 216, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\.venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-13 22:22:53,382 basehttp 10752 11104 "POST /blog/post_author/ HTTP/1.1" 500 131784
+INFO 2024-04-13 22:23:05,043 basehttp 10752 11104 "POST /blog/post_author/ HTTP/1.1" 200 158

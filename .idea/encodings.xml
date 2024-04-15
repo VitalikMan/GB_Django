@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Lecture1/myproject/log/django.log" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Seminar2/HomeWork2/shopapp/views.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Seminar2/myprojectseminar/db.sqlite3" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Seminar3/HomeWork3/shopapp/views.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Seminar4/HomeWork/HomeWork/settings.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Seminar4/HomeWork/db.sqlite3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Seminar4/HomeWork/shopapp/forms.py" charset="UTF-8" />
@@ -17,6 +14,13 @@
     <file url="file://$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/admin.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Seminar5/myprojectseminar/blogapp/views.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Seminar5/myprojectseminar/gameapp/forms.py" charset="UTF-8" />
-    <file url="PROJECT" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/settings.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/HomeWork/db.sqlite3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/HomeWork/shopapp/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/HomeWork/shopapp/forms.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/admin.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/views.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/forms.py" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

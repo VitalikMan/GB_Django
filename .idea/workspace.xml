@@ -4,43 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Preparing for uploading to the server">
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/templates/blogapp/post_author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/game.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/game_two.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/two_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/log/django.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GB_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GB_Django.iml" afterDir="false" />
+    <list default="true" id="4879e58c-04ea-4d4b-ac5e-b32cb235cbfa" name="Changes" comment="Added Final HomeWork 6">
+      <change afterPath="$PROJECT_DIR$/HomeWork/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/HomeWork/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/HomeWork/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/log/django.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/django-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/Рис.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/масло.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_5I4oZz3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_5KzJ0Qb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_7j6s0kt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_Ay1gTNG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_LQGOCjp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_OomIOLj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_ZWXGW0h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_dX5qI2B.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_hOrpTs8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/помидор_vpGF7KX.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/media/хлеб.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/all_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/all_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/ordered_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/ordered_items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/templates/shopapp/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/templates/shopapp/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/HomeWork/shopapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/shopapp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/templates/blogapp/post_author.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/blogapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/game_two.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/templates/gameapp/two_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/gameapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/log/django.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seminar6/myprojectseminar/myprojectseminar/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +125,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -92,19 +139,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/GeekBrains/Учеба GeekBrains/3 quarter. Final/2. Django framework (Seminars)/GB_Django",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django" />
@@ -114,11 +161,11 @@
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar3\HomeWork\shopapp\templates\shopapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar6\HomeWork\HomeWork" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar6\HomeWork" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar6\myprojectseminar\gameapp" />
       <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4\HomeWork" />
-      <recent name="E:\GeekBrains\Учеба GeekBrains\3 quarter. Final\2. Django framework (Seminars)\GB_Django\Seminar4" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -201,27 +248,43 @@
       <option name="project" value="LOCAL" />
       <updated>1713113944918</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Seminar 6">
+      <option name="closed" value="true" />
+      <created>1713198300714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713198300714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -229,6 +292,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Seminar6/HomeWork" />
+    </ignored-roots>
     <MESSAGE value="Added Seminar 2 and HomeWork2" />
     <MESSAGE value="Added Seminar 3" />
     <MESSAGE value="Added HomeWork 3" />
@@ -237,6 +303,7 @@
     <MESSAGE value="Added Seminar 5 and adding HomeWork 5" />
     <MESSAGE value="Removed Seminar6" />
     <MESSAGE value="Preparing for uploading to the server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing for uploading to the server" />
+    <MESSAGE value="Added Seminar 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Seminar 6" />
   </component>
 </project>
